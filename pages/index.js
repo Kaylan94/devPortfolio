@@ -13,6 +13,7 @@ const linkStyle = {
 Create a folder called static in your project root directory. From your code you can then reference those files with /static/ URLs (see<img src={`/static/art/${props.data.image}.jpg`} alt=""/>) 
 Note: Don't name the static directory anything else. The name is required and is the only directory that Next.js uses for serving static assets.*/
 export default () => (
+	
 	<Layout>
 	    <h1>Developer Portfolio</h1>
 		<h3>Kaylan Palmer</h3>
